@@ -1,7 +1,9 @@
 import React from 'react'
 import './Table.css'
 export default function Table() {
-
+// login auth
+// need to create a list of the selected teams 
+// lock teams after the submit button is pressed
 
     const selectTeam = (e) => {
         e.preventDefault();
