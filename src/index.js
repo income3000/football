@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import Form from './components/Form';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Table from './components/Table';
+import Commish from './components/commish/Commish';
 // import {Homepage, Aboutpage } from './App';
 ReactDOM.render(
   <Router>
@@ -13,6 +14,7 @@ ReactDOM.render(
       <Route path='/' exact component={App} />
       <Route path='/Form' exact component={Form} />
       <Route path='/Table' exact component={Table} />
+      <Route path='/Commish' exact component={Commish} />
     </Switch>
     <App />
   </Router>,

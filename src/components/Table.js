@@ -7,7 +7,7 @@ export default function Table() {
 
     const selectTeam = (e) => {
         e.preventDefault();
-      console.log(`clicked + #{id}`)
+      console.log(`clicked `)
     
     }
     const _handleSubmit = (e) => {

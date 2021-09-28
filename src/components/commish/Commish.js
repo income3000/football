@@ -6,3 +6,13 @@
 
 // commish page can delete/add users
 // 
+import React from 'react'
+
+export default function Commish() {
+    return (
+        <div>
+            Commissioners Page
+            
+        </div>
+    )
+}

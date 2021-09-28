@@ -11,9 +11,9 @@ export default function Navigation() {
     </button>
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav">
-        {/* <li className="nav-item nav-link">
-        <Link to="/"><span>Home</span></Link>
-        </li> */}
+        <li className="nav-item nav-link">
+        <Link to="/Commish"><span>Commish</span></Link>
+        </li>
         <li className="nav-item nav-link">
           <Link to="./Form"><span>Form</span></Link>
         </li>
